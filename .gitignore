@@ -1,0 +1,75 @@
+# Operating System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+
+# IDE & Editor Files
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+/nbproject/
+
+# Composer & Dependencies
+/vendor/
+
+# CodeIgniter Framework Cache & Logs
+application/cache/*
+!application/cache/.gitkeep
+!application/cache/index.html
+
+application/logs/*
+!application/logs/.gitkeep
+!application/logs/index.html
+
+# Keamanan Konfigurasi Database Lokal
+application/config/database.php
+!application/config/database.php.example
+
+# Privasi Logo & Gambar Statis (agar saat di-clone orang lain logo/foto tidak terbawa)
+assets/img/*.png
+assets/img/*.jpg
+assets/img/*.jpeg
+!assets/img/.gitkeep
+
+# Privasi Seluruh Media Upload (CV, Foto Organisasi, Foto Pelamar, Dokumentasi, Proposal)
+uploads/cv/*
+!uploads/cv/.gitkeep
+!uploads/cv/index.html
+
+uploads/photos/*
+!uploads/photos/.gitkeep
+!uploads/photos/index.html
+
+uploads/organization/*
+!uploads/organization/.gitkeep
+!uploads/organization/index.html
+
+uploads/proposal_files/*
+!uploads/proposal_files/.gitkeep
+!uploads/proposal_files/index.html
+
+uploads/proposals/*
+!uploads/proposals/.gitkeep
+!uploads/proposals/index.html
+
+uploads/program_dokumentasi/*
+!uploads/program_dokumentasi/.gitkeep
+!uploads/program_dokumentasi/index.html
+
+# Environment & Sensitive Files
+.env
+.env.*
+*.log
+*.bak
+*.sql.bak
+*.sqlite
+
+# Tests
+tests/mocks/database/ci_test.sqlite
+/tests/tests/
+/tests/results/
