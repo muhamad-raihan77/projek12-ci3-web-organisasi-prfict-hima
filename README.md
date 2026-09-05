@@ -123,12 +123,6 @@ projek12/
 
 ---
 
-## 🔑 Akun Default (Pengembangan)
-
-| Role | Email | Password | Akses URL |
-| :--- | :--- | :--- | :--- |
-| **Administrator** | `admin@prfict.com` | `12345` | `/admin/auth` |
-| **Pendaftar Mahasiswa** | Daftar mandiri melalui menu Register | - | `/auth/login` |
 
 ---
 
