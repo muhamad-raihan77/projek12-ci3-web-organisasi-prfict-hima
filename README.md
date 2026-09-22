@@ -34,11 +34,7 @@ projek12/
 ├── composer.json            # Daftar dependensi library PHP
 └── index.php                # Front controller utama
 ```
-
-
-
-
 ---
 
 ## 📄 Lisensi & Hak Cipta
-Dikembangkan untuk kebutuhan internal organisasi **Program Representative Faculty of Information and Communication Technology (PR FICT)** Horizon University Indonesia.
+Dikembangkan untuk kebutuhan organisasi **Program Representative Faculty of Information and Communication Technology (PR FICT)** Horizon University Indonesia.
